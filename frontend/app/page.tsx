@@ -67,7 +67,7 @@ export default function LoginPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, username: e.target.value })
                 }
-                className="h-12"
+                className="h-14"
               />
             </div>
 
@@ -79,7 +79,7 @@ export default function LoginPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, password: e.target.value })
                 }
-                className="h-12 pr-10"
+                className="h-14 pr-10"
               />
               <button
                 type="button"
